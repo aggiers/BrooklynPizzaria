@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: black;
+}
+
+.flex {
+    display: flex;
+}
+
+.btn_entre button {
+    width: 130px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #FF8702;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+    height: 35px;
+    color: white;
+}
+
+button:hover,
+form .btn_enviar input:hover {
+    box-shadow: 0px 0px 8px #FF8702;
+    transform: scale(1.05);
+}
+
+/*       HEADER       */
+
+.informacoes {
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+header {
+    height: 50px;
+}
+
+header>.informacoes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.logo span{
+    color: #FF8702;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover {
+    color: #FF8702;
+    transform: scale(1.05);
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 10px;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+button:hover {
+    box-shadow: 0px 0px 8px #FF8702;
+    transform: scale(1.05);
+}
+
+
+
+/*           TOPO DO SITE         */
+
+.background img{
+    position: absolute;
+    height: 82.3%;
+}
+
+section .interface{
+    position: absolute;
+    padding: 40px 5%;
+}
+
+.interface{
+    margin-top: -40px;
+}
+
+section.topo_do_site .flex {
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo_do_site h1 {
+    color: #fff;
+    font-size: 35px;
+    line-height: 40px
+}
+
+.topo_do_site h1 span {
+    color: #FF8702;
+}
+
+.topo_do_site h2{
+    color: #FF8702;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.topo_do_site .txt_topo_site p {
+    color: #fff;
+    margin: 20px 0;
+}
+
+.topo_do_site .img_topo_site img {
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+    height: 500px;
+}
+
+@keyframes flutuar {
+    0% {
+        top: 0;
+    }
+
+    100% {
+        top: 30px;
+    }
+}
+
+/*     CARDAPIO     */
