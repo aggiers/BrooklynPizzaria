@@ -15,7 +15,7 @@ body {
 }
 
 .btn_entre button {
-    width: 130px;
+    width: 120px;
     font-size: 18px;
     font-weight: 600;
     background-color: #FF8702;
@@ -60,7 +60,7 @@ header>.informacoes {
     letter-spacing: 4px;
 }
 
-.logo span{
+.logo span {
     color: #FF8702;
 }
 
@@ -97,17 +97,21 @@ button:hover {
 
 /*           TOPO DO SITE         */
 
-.background img{
+.background img {
     position: absolute;
-    height: 82.3%;
+    height: 88.5%;
 }
 
-section .interface{
-    position: absolute;
-    padding: 40px 5%;
+section .interface {
+    position: relative;
+    padding: 40px 10%;
 }
 
-.interface{
+.txt_topo_site {
+    margin-top: -40px;
+}
+
+.img_topo_site {
     margin-top: -40px;
 }
 
@@ -127,7 +131,7 @@ section.topo_do_site .flex {
     color: #FF8702;
 }
 
-.topo_do_site h2{
+.topo_do_site h2 {
     color: #FF8702;
     font-size: 20px;
     font-style: italic;
@@ -146,6 +150,20 @@ section.topo_do_site .flex {
     height: 500px;
 }
 
+.btn_experimente button {
+    width: 170px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #FF8702;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+    height: 40px;
+    color: white;
+    margin-top: 25px;
+}
+
 @keyframes flutuar {
     0% {
         top: 0;
@@ -156,4 +174,87 @@ section.topo_do_site .flex {
     }
 }
 
+/*     DESCRICAO     */
+
+section.descricao_do_site {
+    height: 540px;
+    position: relative;
+    background-color: #FFF1C2;
+
+}
+
+.descrição p {
+    padding: 50px;
+    color: #000;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.images {
+    display: flex;
+}
+
+.images img {
+    height: 333px;
+}
+
+
 /*     CARDAPIO     */
+
+section.cardapio {
+    padding: 0px 10%;
+    height: 500vh;
+}
+
+.titulo {
+    margin-top: 80px;
+    text-align: center;
+    color: #fff;
+}
+
+.titulo h1 {
+    text-transform: uppercase;
+}
+
+.titulo h1 span {
+    color: #FF8702;
+}
+
+.titulo p span {
+    font-weight: bold;
+}
+
+.tipos_queijo {
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 100px;
+}
+
+.tipos {
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.opcoes{
+    display: flex;
+    justify-content: center; 
+    margin-top: 40px;
+}
+
+.descricao_produto {
+    color: #fff;
+    width: 80%;
+}
+
+.descricao_produto h1{
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.pizza_escolha img{
+    height: 250px;
+}
